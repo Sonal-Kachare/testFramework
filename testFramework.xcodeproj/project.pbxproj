@@ -11,6 +11,7 @@
 		57218A702796F8DC0005441B /* testFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57218A652796F8DB0005441B /* testFramework.framework */; };
 		57218A752796F8DC0005441B /* testFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57218A742796F8DC0005441B /* testFrameworkTests.swift */; };
 		57218A762796F8DC0005441B /* testFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 57218A682796F8DB0005441B /* testFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57218A802796FAE00005441B /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57218A7F2796FAE00005441B /* SwiftyLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		57218A692796F8DB0005441B /* testFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = testFramework.docc; sourceTree = "<group>"; };
 		57218A6F2796F8DC0005441B /* testFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57218A742796F8DC0005441B /* testFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFrameworkTests.swift; sourceTree = "<group>"; };
+		57218A7F2796FAE00005441B /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				57218A682796F8DB0005441B /* testFramework.h */,
 				57218A692796F8DB0005441B /* testFramework.docc */,
+				57218A7F2796FAE00005441B /* SwiftyLib.swift */,
 			);
 			path = testFramework;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57218A6A2796F8DB0005441B /* testFramework.docc in Sources */,
+				57218A802796FAE00005441B /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 		57218A7D2796F8DC0005441B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A5J34NR598;
@@ -421,6 +426,7 @@
 		57218A7E2796F8DC0005441B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A5J34NR598;
